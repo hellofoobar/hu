@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from "./HelloWorld.jsx";
+import routes from "../routes.jsx";
 
-ReactDOM.render(
-    <HelloWorld title="mlgb" />,
-    document.querySelector('#root')
-);
+ReactDOM.render(routes, document.querySelector('#root'));
