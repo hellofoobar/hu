@@ -156,9 +156,10 @@ app.put('/users/:id', function(req, res) {
    	var newId = req.body.id;
     var firstName = req.body.firstName;
     var lastName = req.body.lastName;
-    console.log(id);
+  console.log(id);
 	console.log(newId);
 	console.log(firstName);
+  console.log(lastName);
 
 	fs.readFile(filepath, 'utf8', function (err, data) {
         if (err) {
